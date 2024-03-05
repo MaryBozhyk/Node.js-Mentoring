@@ -5,6 +5,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "npm run task1": "nodemon ./task1.js",
+    "npm run task2": "nodemon ./task2.js",
+    "npm run task3": "nodemon ./task3.js"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
